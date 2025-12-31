@@ -16,7 +16,12 @@ def complete_todo():
             st.session_state[str(i)] = False
     write_todos(todos)
     
-    
+
+st.set_page_config(
+    page_title="My Todo App",   # <-- this is the tab name
+    page_icon="✅"              # optional, the tab icon
+)
+
             
 
 st.title("Todo App")
