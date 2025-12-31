@@ -18,7 +18,7 @@ def complete_todo():
     
 
 st.set_page_config(
-    page_title="My Todo App",   # <-- this is the tab name
+    page_title="Wael's Todo App",   # <-- this is the tab name
     page_icon="✅"              # optional, the tab icon
 )
 
